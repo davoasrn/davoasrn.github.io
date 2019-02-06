@@ -1,0 +1,249 @@
+/*###########*/ 
+/*  PAGE 15  */
+/*###########*/ 
+
+$st1-size:60px;//width of burger menu bar
+$st2-size:100px; //width of the icon bar
+$st3-size:150px; //width of dropdown bar
+
+.slim-right-menu{
+  display:block;
+  height:100%;
+  position:fixed;
+  right:0px;
+  top:0px;
+  z-index:100000;
+
+  .rm-stage1{
+    width:$st1-size;
+    height:100%;
+    background:#fff;
+    position:absolute;
+    right:0px;
+    z-index:1030;
+    @include transition(.2s);
+
+    .open-stage1{
+      display:block;
+      height:$st1-size;
+      width:$st1-size;
+      border-bottom:1px solid #fcfcfc;
+      position:relative;      
+      cursor:pointer;
+      i{
+        display:block;
+        font-size:24px;
+        color:#ccc;
+        @include transition(.2s);
+      }
+      &:hover{
+        background:#fcfcfc;
+        i{color:#333;}
+      }
+      &.active{background:#fcfcfc}
+    }
+  }
+  .rm-stage2{
+    width:$st2-size;
+    height:100%;
+    background:#fcfcfc;
+    position:absolute;
+    right:-$st2-size;
+    z-index:1000;
+    @include transition(.2s);
+
+    &.active{right:$st1-size;}
+    &.active2{right:$st3-size + $st1-size;}
+  }
+
+  .rm-stage3{
+    width:$st3-size;
+    height:100%;
+    background:#eeeeee;
+    position:absolute;
+    right:-$st3-size + $st1-size;
+    z-index:1010;
+    @include transition(.2s);
+    &.active{right:$st1-size;}
+    
+    //Dropdowns
+    ul.menu-st3{
+      li{
+
+        //Styles for dropdowns
+        ul{
+          display:block;
+          text-align:center;
+          margin-top:125px;
+          li{
+            a{
+              display:block;
+              color:#999;
+              font-weight:bold;
+              padding:7px 0;
+              &:hover{
+                color:#333;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+
+  ul.menu-st2{
+    margin-top:$st1-size;
+    li{
+      text-align:center;
+      text-transform:uppercase;
+      font-family:"open sans";
+      font-weight:bold;
+      a{
+        display:block;
+        height:100px;
+        padding-top:10px;
+        color:#ccc;
+        cursor:pointer;
+        i{font-size:40px; display:block;}
+        &:hover{
+          color:#333;
+        }
+        &.active{
+          background:#eeeeee;
+          color:#444;
+        }
+      }
+    }
+  }
+}
+.slim-left-menu{
+  display:block;
+  height:100%;
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:100000;
+
+  .rm-stage1{
+    width:$st1-size;
+    height:100%;
+    background:#fff;
+    position:absolute;
+    left:0px;
+    z-index:1030;
+    @include transition(.2s);
+
+    .open-stage1{
+      display:block;
+      height:$st1-size;
+      width:$st1-size;
+      border-bottom:1px solid #fcfcfc;
+      position:relative;      
+      cursor:pointer;
+      i{
+        display:block;
+        font-size:24px;
+        color:#ccc;
+        @include transition(.2s);
+      }
+      &:hover{
+        background:#fcfcfc;
+        i{color:#333;}
+      }
+      &.active{background:#fcfcfc}
+    }
+  }
+  .rm-stage2{
+    width:$st2-size;
+    height:100%;
+    background:#fcfcfc;
+    position:absolute;
+    left:-$st2-size;
+    z-index:1000;
+    @include transition(.2s);
+
+    &.active{left:$st1-size;}
+    &.active2{left:$st3-size + $st1-size;}
+  }
+
+  .rm-stage3{
+    width:$st3-size;
+    height:100%;
+    background:#eeeeee;
+    position:absolute;
+    left:-$st3-size + $st1-size;
+    z-index:1010;
+    @include transition(.2s);
+    &.active{left:$st1-size;}
+    
+    //Dropdowns
+    ul.menu-st3{
+      li{
+
+        //Styles for dropdowns
+        ul{
+          display:block;
+          text-align:center;
+          margin-top:125px;
+          li{
+            a{
+              display:block;
+              color:#999;
+              font-weight:bold;
+              padding:7px 0;
+              &:hover{
+                color:#333;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+
+  ul.menu-st2{
+    margin-top:$st1-size;
+    li{
+      text-align:center;
+      text-transform:uppercase;
+      font-family:"open sans";
+      font-weight:bold;
+      a{
+        display:block;
+        height:100px;
+        padding-top:10px;
+        color:#ccc;
+        cursor:pointer;
+        i{font-size:40px; display:block;}
+        &:hover{
+          color:#333;
+        }
+        &.active{
+          background:#eeeeee;
+          color:#444;
+        }
+      }
+    }
+  }
+}
+.flip-vertical {
+  width:200px;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  // margin-left:50%;
+  position:absolute;
+  bottom:200px;
+  left:41px;
+  // font-size:22px;
+  // font-weight:bold;
+  color:#ccc;
+  &:hover{
+    color:#222;
+  }
+}
+
+// End of page 15

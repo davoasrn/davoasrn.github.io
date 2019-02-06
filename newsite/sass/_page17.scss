@@ -1,0 +1,107 @@
+.leftsidemenu2{
+	position:relative;
+	height:700px;
+	@media (min-width: $screen-sm-min){height:750px;}
+
+	padding:0px;
+
+	@media (min-width: $screen-md-min){
+		position:fixed;
+		height:100%;
+		padding:0px;
+	}
+
+	.leftcontent{
+		padding:20px;
+		@media (min-width: $screen-xs-min){padding:10%;}
+		@media (min-width: $screen-lg-min){padding:15%;}
+
+		.usericon{
+			display:block;
+			overflow:hidden;
+			width:115px;
+			height:115px;
+			border-radius:200px;
+			// background:white;
+			float:right;
+		}
+		h1{
+			font-size:24px;
+			color:#999;
+			text-align:right;
+			margin-top:30px;
+			line-height:30px;
+			span{color:white;}
+		}
+
+		ul.leftbgmenu{
+			margin-top:10px;
+			li {
+				a{
+					display:block;
+					color:#999;
+					border-bottom:1px solid rgba(white,0.3);
+					padding:20px 0;
+					text-align:right;
+					text-transform:uppercase;
+					&:hover{
+						color:#fff;
+					}
+				}
+				&.active{
+					a{
+						color:#fff;
+					}
+				}
+			}
+		}
+	}
+
+}
+.cpdd{
+	padding:10px;
+	@media (min-width: $screen-xs-min){padding:20px;}
+	@media (min-width: $screen-sm-min){padding:40px;}
+}
+
+
+.lftsocials{
+	position:absolute;
+	bottom:25px;
+
+	right:20px;
+	@media (min-width: $screen-xs-min){right:10%;}
+	@media (min-width: $screen-lg-min){right:15%;}
+
+	text-align:right;
+	font-size:20px;
+	a{
+		color:#999;
+		padding-left:10px;
+		&:hover{
+			color:white;
+		}
+	}
+}
+
+#sectionleftbg{
+	overflow:hidden;
+}
+.prlx-leftbg{
+background: url('../images/tm17/bg.jpg') #222222 100% 0px no-repeat; 
+height:2305px;
+width: 100%; 
+position:absolute;
+top:0px;
+}
+
+.cover-profile{
+	background:url('../images/tm17/profile.jpg') center center; background-size:cover;
+}
+
+.btmfooter{
+	background:white;
+	width:100%;
+	padding:30px 40px 20px 40px;
+	border-top:1px solid #efefef;
+}

@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon4-"]:before,
+[class*=" icon4-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon4-backpack-streamline-trekking:before {
+  content: "a";
+}
+.icon4-bag-shopping-streamline:before {
+  content: "b";
+}
+.icon4-barbecue-eat-food-streamline:before {
+  content: "c";
+}
+.icon4-design-graphic-tablet-streamline-tablet:before {
+  content: "d";
+}
+.icon4-design-pencil-rule-streamline:before {
+  content: "e";
+}
+.icon4-arrow-streamline-target:before {
+  content: "f";
+}
+.icon4-armchair-chair-streamline:before {
+  content: "g";
+}
+.icon4-caddie-shopping-streamline:before {
+  content: "h";
+}
+.icon4-caddie-shop-shopping-streamline:before {
+  content: "i";
+}
+.icon4-camera-photo-polaroid-streamline:before {
+  content: "j";
+}
+.icon4-camera-photo-streamline:before {
+  content: "k";
+}
+.icon4-camera-streamline-video:before {
+  content: "l";
+}
+.icon4-chaplin-hat-movie-streamline:before {
+  content: "m";
+}
+.icon4-chef-food-restaurant-streamline:before {
+  content: "n";
+}
+.icon4-barista-coffee-espresso-streamline:before {
+  content: "o";
+}
+.icon4-bomb-bug:before {
+  content: "p";
+}
+.icon4-book-dowload-streamline:before {
+  content: "q";
+}
+.icon4-book-read-streamline:before {
+  content: "r";
+}
+.icon4-cocktail-mojito-streamline:before {
+  content: "s";
+}
+.icon4-clock-streamline-time:before {
+  content: "t";
+}
+.icon4-coffee-streamline:before {
+  content: "u";
+}
+.icon4-browser-streamline-window:before {
+  content: "v";
+}
+.icon4-brush-paint-streamline:before {
+  content: "w";
+}
+.icon4-computer-imac:before {
+  content: "x";
+}
+.icon4-computer-imac-2:before {
+  content: "y";
+}
+.icon4-bubble-comment-streamline-talk:before {
+  content: "z";
+}
+.icon4-bubble-love-streamline-talk:before {
+  content: "A";
+}
+.icon4-computer-macintosh-vintage:before {
+  content: "B";
+}
+.icon4-drug-medecine-streamline-syringue:before {
+  content: "C";
+}
+.icon4-diving-leisure-sea-sport-streamline:before {
+  content: "D";
+}
+.icon4-grid-lines-streamline:before {
+  content: "E";
+}
+.icon4-handle-streamline-vector:before {
+  content: "F";
+}
+.icon4-like-love-streamline:before {
+  content: "G";
+}
+.icon4-laptop-macbook-streamline:before {
+  content: "H";
+}
+.icon4-music-note-streamline:before {
+  content: "I";
+}
+.icon4-music-speaker-streamline:before {
+  content: "J";
+}
+.icon4-remote-control-streamline:before {
+  content: "K";
+}
+.icon4-receipt-shopping-streamline:before {
+  content: "L";
+}
+.icon4-picture-streamline-1:before {
+  content: "M";
+}
+.icon4-monocle-mustache-streamline:before {
+  content: "N";
+}
+.icon4-japan-streamline-tea:before {
+  content: "O";
+}
+.icon4-frame-picture-streamline:before {
+  content: "P";
+}
+.icon4-food-ice-cream-streamline:before {
+  content: "Q";
+}
+.icon4-ipod-streamline:before {
+  content: "R";
+}
+.icon4-micro-record-streamline:before {
+  content: "S";
+}
+.icon4-picture-streamline:before {
+  content: "T";
+}
+.icon4-photo-pictures-streamline:before {
+  content: "U";
+}
+.icon4-map-streamline-user:before {
+  content: "V";
+}
+.icon4-ipod-music-streamline:before {
+  content: "W";
+}
+.icon4-first-aid-medecine-shield-streamline:before {
+  content: "X";
+}
+.icon4-delete-garbage-streamline:before {
+  content: "Y";
+}
+.icon4-database-streamline:before {
+  content: "Z";
+}
+.icon4-factory-lift-streamline-warehouse:before {
+  content: "0";
+}
+.icon4-eye-dropper-streamline:before {
+  content: "1";
+}
+.icon4-dashboard-speed-streamline:before {
+  content: "2";
+}
+.icon4-danger-death-delete-destroy-skull-stream:before {
+  content: "3";
+}
+.icon4-envellope-mail-streamline:before {
+  content: "4";
+}
+.icon4-ipad-streamline:before {
+  content: "5";
+}
+.icon4-iphone-streamline:before {
+  content: "6";
+}
+.icon4-map-pin-streamline:before {
+  content: "7";
+}
+.icon4-ipod-mini-music-streamline:before {
+  content: "8";
+}
+.icon4-pen-streamline-3:before {
+  content: "9";
+}
+.icon4-pen-streamline-2:before {
+  content: "!";
+}
+.icon4-pen-streamline-1:before {
+  content: "\"";
+}
+.icon4-pen-streamline:before {
+  content: "#";
+}
+.icon4-painting-roll-streamline:before {
+  content: "$";
+}
+.icon4-painting-pallet-streamline:before {
+  content: "%";
+}
+.icon4-paint-bucket-streamline:before {
+  content: "&";
+}
+.icon4-notebook-streamline:before {
+  content: "'";
+}
+.icon4-link-streamline:before {
+  content: "(";
+}
+.icon4-lock-locker-streamline:before {
+  content: ")";
+}
+.icon4-locker-streamline-unlock:before {
+  content: "*";
+}
+.icon4-macintosh:before {
+  content: "+";
+}
+.icon4-magic-magic-wand-streamline:before {
+  content: ",";
+}
+.icon4-magnet-streamline:before {
+  content: "-";
+}
+.icon4-man-people-streamline-user:before {
+  content: ".";
+}
+.icon4-ink-pen-streamline:before {
+  content: "/";
+}
+.icon4-ibook-laptop:before {
+  content: ":";
+}
+.icon4-home-house-streamline:before {
+  content: ";";
+}
+.icon4-headset-sound-streamline:before {
+  content: "<";
+}
+.icon4-happy-smiley-streamline:before {
+  content: "=";
+}
+.icon4-earth-globe-streamline:before {
+  content: ">";
+}
+.icon4-eat-food-fork-knife-streamline:before {
+  content: "?";
+}
+.icon4-eat-food-hotdog-streamline:before {
+  content: "@";
+}
+.icon4-edit-modify-streamline:before {
+  content: "[";
+}
+.icon4-email-mail-streamline:before {
+  content: "]";
+}
+.icon4-crown-king-streamline:before {
+  content: "^";
+}
+.icon4-crop-streamline:before {
+  content: "_";
+}
+.icon4-cook-pan-pot-streamline:before {
+  content: "`";
+}
+.icon4-computer-streamline:before {
+  content: "{";
+}
+.icon4-computer-network-streamline:before {
+  content: "|";
+}
+.icon4-settings-streamline:before {
+  content: "}";
+}
+.icon4-settings-streamline-1:before {
+  content: "~";
+}
+.icon4-settings-streamline-2:before {
+  content: "\\";
+}
+.icon4-shoes-snickers-streamline:before {
+  content: "\e000";
+}
+.icon4-speech-streamline-talk-user:before {
+  content: "\e001";
+}
+.icon4-stamp-streamline:before {
+  content: "\e002";
+}
+.icon4-streamline-suitcase-travel:before {
+  content: "\e003";
+}
+.icon4-streamline-sync:before {
+  content: "\e004";
+}
+.icon4-streamline-umbrella-weather:before {
+  content: "\e005";
+}

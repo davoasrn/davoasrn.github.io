@@ -1,0 +1,40 @@
+.bgx{
+	width:70%;
+}
+
+.chart{
+	font-family:"Open Sans";
+	font-size:40px;
+	font-weight:300;
+	color:#fff;
+	padding-bottom:30px;
+}
+.charttext{
+	text-align:center;
+	font-family:"Open Sans";
+	Font-Size:18px;
+	font-weight:400;
+	color:#fff;
+
+}
+
+.easyPieChart {
+    position: relative;
+    text-align: center;
+}
+
+.easyPieChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.piedark{color:#222;}
+.charttext2{
+	text-align:center;
+	font-family:"Open Sans";
+	Font-Size:18px;
+	font-weight:400;
+	color:#222;
+}

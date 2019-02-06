@@ -1,0 +1,107 @@
+/* TWITTER CSS */
+
+#twitter-feed {
+	width:100%;
+	margin:auto;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-top:-12px;
+	border-radius:12px;
+	color:#666;
+	overflow:auto;
+}
+#twitter-feed h1 {
+	color:#5F5F5F;
+	margin:0px;
+	padding:9px 0px 9px 0px;
+	font-size:18px;
+	font-weight:lighter;	
+}
+.twitter-article, #loading-container {
+	width:100%;
+	border-bottom:1px solid rgba(255,255,255,0.05);
+	float:left;	
+	padding:15px 0px 15px 0px;
+}
+#loading-container {
+	padding:16px 0px 16px 0px;
+	text-align:center;	
+}
+.twitter-pic {
+	float:left;
+	margin-top:5px;
+}
+
+.twitter-pic img {
+	float:left;
+	border:none;
+	
+}
+ img  {
+	 border:none;
+ }
+.twitter-text p {
+	margin:0px;
+	line-height:16px;
+}
+.twitter-text a,  h1 a {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: 0.2s;	-moz-transition: 0.2s;	transition: 0.2s;
+}
+.twitter-text a:hover,  h1 a:hover {
+	text-decoration: none;
+	color: #E84634;
+}
+.tweetbold{
+	font-weight:400;
+}
+a.tweetbold{color:#999;}
+a:hover.tweetbold{color:#FF6633;}
+
+
+.twitter-text {
+	width:80%;
+	float:right;
+	font-size:12px;
+	padding-left: 11px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.twitter-text {
+		width:75%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.twitter-text {
+		width:83%;
+	}
+}
+
+
+
+
+
+.tweet-time {
+	font-size:10px;
+	color:#878787;
+	float:right;
+}
+.tweet-time a, .tweet-time a:hover {
+	color:#878787;
+	
+}
+
+.backlink {
+	font-size:11px;
+	text-align:center;
+}
+.tweetprofilelink a {
+	color:#ccc;
+}
+.tweetprofilelink a:hover {
+	color:#ff6633;
+}
+.backlink a {
+	color:#aaa;
+}
